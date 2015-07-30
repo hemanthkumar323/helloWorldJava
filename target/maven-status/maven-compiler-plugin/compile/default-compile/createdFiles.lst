@@ -1,0 +1,15 @@
+org\sms\beans\user\User.class
+org\sms\controller\MainController.class
+org\sms\beans\school\SchoolMgr.class
+org\sms\beans\school\School.class
+org\sms\beans\user\UserDAO.class
+org\sms\resolver\VelocityMultipleLayoutViewResolver.class
+org\sms\controller\AppDispatchController.class
+org\sms\beans\user\UserMapper.class
+org\sms\beans\school\SchoolDAO.class
+org\sms\beans\school\SchoolColumnContainer.class
+org\sms\beans\user\UserMgr.class
+org\sms\beans\school\SchoolMapper.class
+org\sms\context\Context.class
+org\sms\controller\UserAppDispatchController.class
+org\sms\beans\user\UserColumnContainer.class
