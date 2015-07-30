@@ -1,18 +1,26 @@
 package org.sms.beans.school;
 
+import org.springframework.beans.factory.annotation.Required;
+import org.springframework.beans.factory.annotation.Value;
+
 // This contains the list of all names the table 
 // associated to the school has
 
-public interface SchoolColumnContainer {
+public class SchoolColumnContainer {
 
-	public static String tableName = "school_info";
+	@Value("${org.school.tableName}")	
+	public static String tableName;
 	
-	public static String schoolPk = "school_id";
+	@Value("${org.school.schoolPK.columnName}")
+	public static String schoolPk;
 	
-	public static String schoolName = "school_name";
+	@Value("${org.school.schoolName.columnName}")
+	public static String schoolName;
 	
-	public static String schoolAddress = "school_address";
+	@Value("${org.school.schoolAddress.columnName}")
+	public static String schoolAddress;
 	
-	public static String schoolShortName = "school_shortName";
+	@Value("${org.school.schoolShortName.columnName}")
+	public static String schoolShortName ;
 	
 }
